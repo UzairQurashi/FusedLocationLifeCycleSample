@@ -15,7 +15,7 @@ import com.google.android.gms.location.LocationServices;
 
 /**
  * Created by Uzair Qureshi on 5/28/2018.
- * Description:
+ * Description:this is centralised class for getting a cuurent location
  */
 public class LocationProvider extends LiveData<Location>  {
     private final static String TAG = "LocationProvider";
